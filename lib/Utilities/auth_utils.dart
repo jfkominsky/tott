@@ -9,6 +9,7 @@ import 'package:talk_of_the_town/main.dart';
 
 class AuthUtils {
   static const baseUrl = "https://tott.gse.harvard.edu/api";
+  //static const baseUrl = "https://devebtott.gse.harvard.edu/api";//for debug
   static const _chars =
       'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1234567890';
   Random _rnd = Random();
